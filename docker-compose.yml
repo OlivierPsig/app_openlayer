@@ -19,4 +19,4 @@ services:
       - "80:80"
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile
-      - ./app/dist/:/srv=
+      - ./app/dist/:/srv
